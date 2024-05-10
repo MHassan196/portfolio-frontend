@@ -4,7 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowDownCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import cv from '../assets/files/CV.pdf'
+import cv from '../assets/files/MuhammadHassan.pdf'
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -59,18 +59,12 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>I'm Muhammad Hassan</h1>
                   <h3>{`I'm a,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h3>
-                  <p>I am a Enthusiastic and motivated web
-                    developer with a solid foundation in
-                    JavaScript, ReactJS, and NodeJS.
-                    Recently graduated with a four-year
-                    degree program in Software
-                    Engineering, showcasing a passion
-                    for coding and a quick learning
-                    ability. Excited about the prospect of
-                    contributing to dynamic projects, I
-                    am seeking opportunities to grow as
-                    a MERN Stack developer or full stack
-                    developer.
+                  <p>Decisive Full Stack Developer, recently graduated and
+                    adept at crafting robust web applications from
+                    concept to deployment. Proficient in both front-end
+                    and back-end development, with a focus on delivering
+                    user-centric solutions and staying updated with
+                    emerging technologies.
                   </p>
                   <a href={cv} download="document" target='_blank'><button>Download CV <ArrowDownCircle size={25} /></button></a>
                 </div>}
