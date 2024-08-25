@@ -79,10 +79,12 @@ import text5 from '../assets/img/text/text5.png'
 import text6 from '../assets/img/text/text6.png'
 import text7 from '../assets/img/text/text7.png'
 import text8 from '../assets/img/text/text8.png'
-import todo1 from '../assets/img/todo/todo1.png'
-import todo2 from '../assets/img/todo/todo2.png'
-import todo3 from '../assets/img/todo/todo3.png'
-import todo4 from '../assets/img/todo/todo4.png'
+import heroSection from '../assets/img/collabez/herosection.png'
+import pricing from '../assets/img/collabez/pricing.png'
+import services from '../assets/img/collabez/services.png'
+import portfolio from '../assets/img/collabez/portfolio.png'
+import innerservice from '../assets/img/collabez/innerservice.png'
+import team from '../assets/img/collabez/team.png'
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -90,6 +92,24 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "CollabEZ - Let's Create Extraordinary",
+      description: "Welcome to collabEZ, your one-stop solution for innovative web development, mobile app creation, logo design, and marketing services. We collaborate closely with you to bring your vision to life with precision and creativity.",
+      thumbnail: heroSection,
+      imgUrl: [heroSection, portfolio, services, innerservice, pricing, team],
+      type: "Static",
+      tags: [
+        "ReactJS",
+        "JavaScript",
+        "Tailwind CSS",
+        "GSAP",
+        "HTML CSS",
+        "vite",
+        "heroicons"
+      ],
+      githubLink: "https://github.com/threedev3/collabez-full",
+      liveAppLink: "https://collabez.vercel.app/"
+    },
     {
       title: "Cravio - Unveiling Delicious Delights",
       description: "Cravio is a stylish and user-friendly static web application for food delivery. Serving as a standalone restaurant platform, Cravio offers an enticing user interface where customers can explore its menu offerings. Users have the option to add desired items to their cart, review the billing details, provide address information, and smoothly proceed to checkout. With its captivating design and intuitive features, Cravio provides customers with a seamless and enjoyable experience as they order food online directly from the restaurant's menu.",
@@ -121,7 +141,7 @@ export const Projects = () => {
         "JavaScript",
         "Google Gemini API",
         "Font Awesome icons",
-        
+
       ],
       githubLink: "https://github.com/MHassan196/conversify",
       liveAppLink: "https://conversify-five.vercel.app/"
@@ -142,7 +162,7 @@ export const Projects = () => {
         "react-infinite-scroll",
         "react-redux",
         "OMDb API"
-       
+
       ],
       githubLink: "https://github.com/MHassan196/movix",
       liveAppLink: "https://movix-coral-two.vercel.app/"
@@ -151,7 +171,7 @@ export const Projects = () => {
       title: "Insights Blog",
       description: "Insights Blog is a versatile full-stack web application designed to foster a community centered around insightful content. Administrators wield comprehensive control, empowered to create, edit, and delete posts, users, and comments. Meanwhile, users can immerse themselves in the rich variety of blogs, sharing their thoughts through comments and expressing appreciation via likes. The platform prioritizes security and convenience with JWT token authentication and OAuth integration through Firebase, offering users a seamless and secure experience. Insights Blog merges front-end and back-end functionalities seamlessly, ensuring a smooth and intuitive journey for users as they explore, engage, and contribute to the platform's dynamic content ecosystem.",
       thumbnail: in1,
-      imgUrl: [in1, in14, in15, in2, in3, in5, in6, in7, in8, in9, in10, in11, in12, in13,  ],
+      imgUrl: [in1, in14, in15, in2, in3, in5, in6, in7, in8, in9, in10, in11, in12, in13,],
       type: "Dynamic",
       tags: [
         "ReactJS",
@@ -171,7 +191,7 @@ export const Projects = () => {
       title: "MERN Authentication App",
       description: "The MERN Authentication App offers users a comprehensive platform for managing their accounts securely. Users can register with their email and password, and login to access personalized profiles. Profile updates, including name, address, and profile picture changes, are supported. In case of a forgotten password, users can initiate the recovery process. An OTP is sent to their registered email address for verification. Upon successful verification, users are directed to a password reset page where they can securely update their password. This app is built on the MERN stack, ensuring robust functionality and security. With its intuitive interface and reliable features, the MERN Authentication App provides users with a seamless and protected account management experience.",
       thumbnail: auth1,
-      imgUrl: [auth1, auth2, auth3, auth4, auth5, auth6, auth7, auth8, auth9, auth10, auth11, ],
+      imgUrl: [auth1, auth2, auth3, auth4, auth5, auth6, auth7, auth8, auth9, auth10, auth11,],
       type: "Dynamic",
       tags: [
         "ReactJS",
@@ -210,8 +230,8 @@ export const Projects = () => {
     {
       title: "AI Based Data Entry Automation",
       description: "The AI-based Data Entry Automation web app simplifies data entry tasks by utilizing OCR and Deep Learning technologies. Users can upload various file types, including PDFs, Word documents, and images, containing tabular or handwritten data. Once uploaded, the app automatically extracts the data using advanced algorithms and stores it securely in the database. Through the user dashboard, individuals have convenient access to their data, enabling them to read, update, and delete entries as needed. Additionally, users can customize data fields according to their preferences and save the modified data directly to the database for future reference. This full-stack solution seamlessly integrates front-end and back-end functionalities, providing a user-friendly experience. By harnessing AI technologies, the Data Entry Automation app enhances efficiency and accuracy in data management, offering a streamlined solution for users' data entry needs.",
-      thumbnail: data1, 
-      imgUrl: [data1, data2, data3, data4, data5, data6, data7, data8, data9, data10, data11, data12, data13, data14, data15, data16, data17, data18, data19, data20, data21, data22, data23, data24, data25, ],
+      thumbnail: data1,
+      imgUrl: [data1, data2, data3, data4, data5, data6, data7, data8, data9, data10, data11, data12, data13, data14, data15, data16, data17, data18, data19, data20, data21, data22, data23, data24, data25,],
       type: "Dynamic",
       tags: [
         "ReactJS",
@@ -230,33 +250,19 @@ export const Projects = () => {
     {
       title: "TextUtils",
       description: "TextUtils is a user-friendly web application for text manipulation. It offers various functionalities such as converting text to lowercase or uppercase, formatting it into sentence case or title case, and swapping the case of letters. Users can also remove extra spaces for cleaner formatting. The app provides a convenient way to play with text and modify it according to their preferences.",
-      thumbnail: text1, 
-      imgUrl: [text1, text2, text3, text4, text5, text6, text7, text8 ],
+      thumbnail: text1,
+      imgUrl: [text1, text2, text3, text4, text5, text6, text7, text8],
       type: "Static",
       tags: [
         "ReactJS",
         "HTML CSS",
         "JavaScript",
-        
+
       ],
       githubLink: "https://github.com/MHassan196/TextUtils",
       liveAppLink: "https://mhassan196.github.io/TextUtils/"
     },
-    {
-      title: "To Do List",
-      description: "This ReactJS-based todo app enables users to efficiently manage their tasks. Users can effortlessly add, edit, read, and delete todos. Additionally, they can mark todos as completed to track their progress effectively. The intuitive interface simplifies task management, making it a seamless experience for users.",
-      thumbnail: todo1, 
-      imgUrl: [todo1, todo2, todo3, todo4],
-      type: "Static",
-      tags: [
-        "ReactJS",
-        "HTML CSS",
-        "JavaScript",
-        "Redux"
-      ],
-      githubLink: "https://github.com/MHassan196/todolist-app/",
-      liveAppLink: "https://mhassan196.github.io/todolist-app/"
-    },
+
   ];
 
   const filteredProjects = {

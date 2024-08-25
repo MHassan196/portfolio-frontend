@@ -375,8 +375,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   animation: updown 3s linear infinite;
 }
 
-@media (max-width: 768px){
-  .header-img{
+@media (max-width: 768px) {
+  .header-img {
     display: none;
   }
 }
@@ -726,13 +726,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   cursor: pointer;
 }
 
-@media (max-width: 576px){
-  .proj-imgbx img{
+@media (max-width: 576px) {
+  .proj-imgbx img {
     height: 200px;
   }
 }
-@media (max-width: 350px){
-  .proj-imgbx img{
+
+@media (max-width: 350px) {
+  .proj-imgbx img {
     height: 150px;
   }
 }
@@ -909,7 +910,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 }
-.exp-span{
+
+.exp-span {
   overflow: hidden;
   max-width: 100%;
 }
@@ -950,6 +952,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 10px;
   margin-top: 4px;
   width: 50px;
+  object-fit: contain;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1434,7 +1437,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration: none;
   transition: all 0.5s ease;
 }
-.modal-btn:hover{
+
+.modal-btn:hover {
   color: #c9c9c9;
 }
 

@@ -4,7 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowDownCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import cv from '../assets/files/MuhammadHassan.pdf'
+import cv from '../assets/files/MuhammadHassanCV.pdf'
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -66,7 +66,7 @@ export const Banner = () => {
                     user-centric solutions and staying updated with
                     emerging technologies.
                   </p>
-                  <a href={cv} download="document" target='_blank'><button>Download CV <ArrowDownCircle size={25} /></button></a>
+                  <a href={cv} download="MuhammadHassanCV" target='_blank'><button>Download CV <ArrowDownCircle size={25} /></button></a>
                 </div>}
             </TrackVisibility>
           </Col>
