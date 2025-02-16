@@ -86,12 +86,192 @@ import portfolio from '../assets/img/collabez/portfolio.png'
 import innerservice from '../assets/img/collabez/innerservice.png'
 import team from '../assets/img/collabez/team.png'
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import heroMail from "../assets/img/mailbox/heroMail.png";
+import mailThumbnail from "../assets/img/mailbox/mailThumbnail.png";
+import mail1 from "../assets/img/mailbox/mail1.png";
+import mail2 from "../assets/img/mailbox/mail2.png";
+import mail3 from "../assets/img/mailbox/mail3.png";
+import mail4 from "../assets/img/mailbox/mail4.png";
+import mail5 from "../assets/img/mailbox/mail5.png";
+import mail6 from "../assets/img/mailbox/mail6.png";
+import mail7 from "../assets/img/mailbox/mail7.png";
+import mail8 from "../assets/img/mailbox/mail8.png";
+import mail9 from "../assets/img/mailbox/mail9.png";
+import mail10 from "../assets/img/mailbox/mail10.png";
+import lmsHero from "../assets/img/lms/login.png";
+import lmsThumbnail from "../assets/img/lms/lmsThumbnail.png";
+import lms1 from "../assets/img/lms/lms1.png";
+import lms2 from "../assets/img/lms/lms2.png";
+import lms3 from "../assets/img/lms/lms3.png";
+import lms4 from "../assets/img/lms/lms4.png";
+import lms5 from "../assets/img/lms/lms5.png";
+import lms6 from "../assets/img/lms/lms6.png";
+import lms7 from "../assets/img/lms/lms7.png";
+import lms8 from "../assets/img/lms/lms8.png";
+import lms9 from "../assets/img/lms/lms9.png";
+import heroCollabez from "../assets/img/collabez-landing/hero.png";
+import landing1 from "../assets/img/collabez-landing/landing1.png";
+import landing2 from "../assets/img/collabez-landing/landing2.png";
+import landing3 from "../assets/img/collabez-landing/landing3.png";
+import landing4 from "../assets/img/collabez-landing/landing4.png";
+import landing5 from "../assets/img/collabez-landing/landing5.png";
+import saasHero from "../assets/img/saas/heroSaas.png";
+import saas1 from "../assets/img/saas/saas1.png";
+import saas2 from "../assets/img/saas/saas2.png";
+import saas3 from "../assets/img/saas/saas3.png";
+import saas4 from "../assets/img/saas/saas4.png";
+import appHero from "../assets/img/app/appHero.png";
+import app1 from "../assets/img/app/app1.png";
+import app2 from "../assets/img/app/app2.png";
+import app3 from "../assets/img/app/app3.png";
+import app4 from "../assets/img/app/app4.png";
+import marketingHero from "../assets/img/marketing/marketingHero.png";
+import marketing1 from "../assets/img/marketing/marketing1.png";
+import marketing2 from "../assets/img/marketing/marketing2.png";
+import marketing3 from "../assets/img/marketing/marketing3.png";
+import marketing4 from "../assets/img/marketing/marketing4.png";
+import marketing5 from "../assets/img/marketing/marketing5.png";
+import marketing6 from "../assets/img/marketing/marketing6.png";
+import interiorHero from "../assets/img/interior/interiorHero.png";
+import interior1 from "../assets/img/interior/interior1.png";
+import interior2 from "../assets/img/interior/interior2.png";
+import interior3 from "../assets/img/interior/interior3.png";
+import interior4 from "../assets/img/interior/interior4.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Mailbox",
+      description: "Mailbox App – A Next.js and React.js-based email client with Material UI, integrated with a Node.js API for seamless IMAP communication. Users can configure their IMAP settings, manage emails across Inbox, Sent, Trash, and Spam, send and reply to emails, move messages between folders, star emails, and perform bulk actions like marking emails as read/unread or starred. Trash emails can also be permanently deleted.",
+      thumbnail: mailThumbnail,
+      imgUrl: [heroMail, mail1, mail2, mail3, mail4, mail5, mail6, mail7, mail8, mail9, mail10],
+      type: "Dynamic",
+      tags: [
+        "NextJS",
+        "ReactJS",
+        "TypeScript",
+        "Material UI",
+        "React Quill",
+        "NodeJS",
+        "ExpressJS"
+      ],
+      // githubLink: "https://github.com/threedev3/collabez-full",
+      // liveAppLink: "https://collabez.vercel.app/"
+    },
+    {
+      title: "Learning Management System UI",
+      description: "Learning Management System (LMS) – A Next.js, TypeScript, and Material UI-based LMS with distinct dashboards for Admin, Parent, Student, and Teacher roles. Features include class management, assignments, mock tests, file sharing, and progress tracking. Played a key role in frontend development and API integration.",
+      thumbnail: lmsThumbnail,
+      imgUrl: [lmsHero, lms1, lms2, lms3, lms4, lms5, lms6, lms7, lms8, lms9],
+      type: "Dynamic",
+      tags: [
+        "NextJS",
+        "ReactJS",
+        "TypeScript",
+        "Material UI",
+      ],
+      // githubLink: "https://github.com/threedev3/collabez-full",
+      // liveAppLink: "https://collabez.vercel.app/"
+    },
+    {
+      title: "AI Based Data Entry Automation",
+      description: "The AI-based Data Entry Automation web app simplifies data entry tasks by utilizing OCR and Deep Learning technologies. Users can upload various file types, including PDFs, Word documents, and images, containing tabular or handwritten data. Once uploaded, the app automatically extracts the data using advanced algorithms and stores it securely in the database. Through the user dashboard, individuals have convenient access to their data, enabling them to read, update, and delete entries as needed. Additionally, users can customize data fields according to their preferences and save the modified data directly to the database for future reference. This full-stack solution seamlessly integrates front-end and back-end functionalities, providing a user-friendly experience. By harnessing AI technologies, the Data Entry Automation app enhances efficiency and accuracy in data management, offering a streamlined solution for users' data entry needs.",
+      thumbnail: data1,
+      imgUrl: [data1, data2, data3, data4, data5, data6, data7, data8, data9, data10, data11, data12, data13, data14, data15, data16, data17, data18, data19, data20, data21, data22, data23, data24, data25,],
+      type: "Dynamic",
+      tags: [
+        "ReactJS",
+        "Python",
+        "Django",
+        "MongoDB",
+        "mongoose",
+        "HTML CSS",
+        "JavaScript",
+        "OCR",
+        "Deep Learning"
+      ],
+      githubLink: "https://github.com/MHassan196/DEA_Frontend",
+      githubLink2: "https://github.com/MHassan196/DEA_Backend"
+    },
+    {
+      title: "CollabEZ Landing Page",
+      description: "Welcome to collabEZ, your one-stop solution for innovative web development, mobile app creation, logo design, and marketing services. We collaborate closely with you to bring your vision to life with precision and creativity.",
+      thumbnail: heroCollabez,
+      imgUrl: [heroCollabez, landing1, landing2, landing3, landing4, landing5],
+      type: "Static",
+      tags: [
+        "NextJS",
+        "ReactJS",
+        "Typescript",
+        "Tailwind CSS",
+        "Framer Motion",
+      ],
+      // githubLink: "https://github.com/threedev3/collabez-full",
+      liveAppLink: "https://collabez.ae/"
+    },
+    {
+      title: "SAAS Landing Page",
+      description: "SaaS Landing Page – A modern, responsive, and visually engaging frontend built with Next.js, React.js, and Tailwind CSS. Showcases key features, pricing, testimonials, and a call-to-action to drive user engagement. Optimized for performance, SEO, and seamless user experience.",
+      thumbnail: saasHero,
+      imgUrl: [saasHero, saas1, saas2, saas3, saas4],
+      type: "Static",
+      tags: [
+        "ReactJS",
+        "JavaScript",
+        "Tailwind CSS",
+        "Framer Motion",
+      ],
+      githubLink: "https://github.com/MHassan196/saas-landing-page",
+      liveAppLink: "https://saas-landing-page-psi-jade.vercel.app/"
+    },
+    {
+      title: "App Landing Page",
+      description: "Application Landing Page – A sleek, responsive, and user-friendly frontend built with React.js, and Tailwind CSS. Highlights the app’s features, benefits, and call-to-action sections to enhance user engagement. Optimized for performance, accessibility, and SEO.",
+      thumbnail: appHero,
+      imgUrl: [appHero, app1, app2, app3, app4],
+      type: "Static",
+      tags: [
+        "ReactJS",
+        "JavaScript",
+        "Tailwind CSS",
+        "Framer Motion",
+      ],
+      githubLink: "https://github.com/MHassan196/app-landing-page",
+      liveAppLink: "https://app-landing-page-taupe.vercel.app/"
+    },
+    {
+      title: "Marketing Landing Page",
+      description: "Marketing Landing Page – A high-converting, responsive, and visually appealing frontend built with React.js, and Tailwind CSS. Showcases marketing services, key features, client testimonials, and compelling CTAs to drive engagement and conversions. Optimized for SEO and performance.",
+      thumbnail: marketingHero,
+      imgUrl: [marketingHero, marketing1, marketing2, marketing3, marketing4, marketing5, marketing6],
+      type: "Static",
+      tags: [
+        "ReactJS",
+        "JavaScript",
+        "Tailwind CSS",
+        "Framer Motion",
+      ],
+      githubLink: "https://github.com/MHassan196/marketing-landing-page",
+      liveAppLink: "https://marketing-landing-page-iota.vercel.app/"
+    },
+    {
+      title: "Interior Design Landing Page",
+      description: "Interior Design Landing Page – A stylish, responsive, and visually captivating frontend built with React.js, and Tailwind CSS. Showcases design portfolios, services, client testimonials, and a strong call-to-action. Optimized for performance, SEO, and user engagement.",
+      thumbnail: interiorHero,
+      imgUrl: [interiorHero, interior1, interior2, interior3, interior4],
+      type: "Static",
+      tags: [
+        "ReactJS",
+        "JavaScript",
+        "Tailwind CSS",
+        "Framer Motion",
+      ],
+      githubLink: "https://github.com/MHassan196/design-landing-page",
+      liveAppLink: "https://design-landing-page-mu.vercel.app/"
+    },
     {
       title: "CollabEZ - Let's Create Extraordinary",
       description: "Welcome to collabEZ, your one-stop solution for innovative web development, mobile app creation, logo design, and marketing services. We collaborate closely with you to bring your vision to life with precision and creativity.",
@@ -227,26 +407,7 @@ export const Projects = () => {
       githubLink: "https://github.com/MHassan196/quiz-app",
       githubLink2: "https://github.com/MHassan196/quiz-app-backend"
     },
-    {
-      title: "AI Based Data Entry Automation",
-      description: "The AI-based Data Entry Automation web app simplifies data entry tasks by utilizing OCR and Deep Learning technologies. Users can upload various file types, including PDFs, Word documents, and images, containing tabular or handwritten data. Once uploaded, the app automatically extracts the data using advanced algorithms and stores it securely in the database. Through the user dashboard, individuals have convenient access to their data, enabling them to read, update, and delete entries as needed. Additionally, users can customize data fields according to their preferences and save the modified data directly to the database for future reference. This full-stack solution seamlessly integrates front-end and back-end functionalities, providing a user-friendly experience. By harnessing AI technologies, the Data Entry Automation app enhances efficiency and accuracy in data management, offering a streamlined solution for users' data entry needs.",
-      thumbnail: data1,
-      imgUrl: [data1, data2, data3, data4, data5, data6, data7, data8, data9, data10, data11, data12, data13, data14, data15, data16, data17, data18, data19, data20, data21, data22, data23, data24, data25,],
-      type: "Dynamic",
-      tags: [
-        "ReactJS",
-        "Python",
-        "Django",
-        "MongoDB",
-        "mongoose",
-        "HTML CSS",
-        "JavaScript",
-        "OCR",
-        "Deep Learning"
-      ],
-      githubLink: "https://github.com/MHassan196/DEA_Frontend",
-      githubLink2: "https://github.com/MHassan196/DEA_Backend"
-    },
+
     {
       title: "TextUtils",
       description: "TextUtils is a user-friendly web application for text manipulation. It offers various functionalities such as converting text to lowercase or uppercase, formatting it into sentence case or title case, and swapping the case of letters. Users can also remove extra spaces for cleaner formatting. The app provides a convenient way to play with text and modify it according to their preferences.",
